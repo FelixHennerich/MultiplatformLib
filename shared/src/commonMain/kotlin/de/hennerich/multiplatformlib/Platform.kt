@@ -1,0 +1,7 @@
+package de.hennerich.multiplatformlib
+
+interface Platform {
+    val name: String
+}
+
+expect fun getPlatform(): Platform
